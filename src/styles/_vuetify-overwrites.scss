@@ -1,0 +1,26 @@
+// don't show pointer cursor for disabled menus
+.v-menu__activator--disabled:hover {
+    cursor: default !important;
+}
+
+// display suffix in grey color too for disabled text inputs
+.v-text-field__slot input[disabled="disabled"] + div.v-text-field__suffix ,.v-input--is-disabled .v-text-field__suffix {
+    color: rgba(0,0,0,.38) !important;
+}
+
+//show placeholder if combobox has chips
+
+.v-autocomplete:not(.v-input--is-focused).v-select--chips input {
+    max-height: 25px !important;
+}
+
+// Chips
+.v-chip.v-chip--size-small {
+    font-size: 13px;
+}
+
+// Icons
+.v-icon--size-default {
+    font-size: 18px;
+}
+

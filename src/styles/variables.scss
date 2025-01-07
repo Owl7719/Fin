@@ -1,0 +1,81 @@
+@use 'vuetify/settings' with (
+
+//Globals
+$font-size-root: 14px,
+$typography: (
+    'caption': (
+        'size': 0.857rem
+    )
+),
+
+// Buttons
+$button-font-size: 14px,
+$btn-group-height: 36px,
+
+// Borders
+$border-color-root: #D1D5DA,
+$border-width-root: 1px,
+
+//Card
+$card-text-font-size: 1rem,
+
+//Snackbar
+$snackbar-wrapper-min-width: 300px,
+//$snackbar-content-font-size: 1rem,
+
+//Tabs
+//$tab-font-size: 1rem,
+//$tab-text-transform: normal,
+
+//Potential fix for a bug with show-arrow props in tabs
+//Open issue - https://github.com/vuetifyjs/vuetify/issues/12274
+$slide-group-prev-basis: 0px,
+
+// Inputs
+$input-font-size: 16px,
+$label-font-size: 16px,
+$label-color: #0009,
+$label-opacity: 1,
+
+//Lists
+$list-item-title-font-size: 16px,
+//$list-item-title-font-size: 16px,
+//$list-item-dense-title-font-size: 16px,
+//$list-item-action-text-font-size: 16px,
+
+//Tables
+$table-header-height: 48px,
+$table-row-height: 48px,
+
+//Alerts
+//$alert-font-size: 14px,
+//$alert-icon-size: 24px,
+
+//Tooltips
+$tooltip-background-color: #616161,
+$tooltip-font-size: 0.857rem,
+$tooltip-padding: 7px,
+
+//Textfields
+$field-outline-opacity: .38,
+
+//Icons
+$icon-sizes: (
+    'default': 32px
+));
+
+//Treeview
+//$treeview-label-font-size: 16px,
+//$treeview-node-height-dense: 34px,
+//$treeview-node-margin: 0,
+
+//Chips
+//$icon-sizes: (
+//    'small': (
+//        'font-size': 13px,
+//    )
+//));
+
+//Textfields
+//$text-field-filled-full-width-outlined-slot-min-height: 48px,
+//$text-field-enclosed-prepend-append-margin-top: 13px);
